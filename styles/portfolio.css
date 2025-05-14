@@ -28,7 +28,7 @@
 }
 
 .section-title {
-  font-size: 35px;
+  font-size: 42px;
   font-weight: bold;
   color: #181818;
 }
@@ -47,6 +47,10 @@
 .dark-3 {
   color: #757575;
 }
+.dark-1 {
+  color: #181818;
+}
+
 
 /* header style */
 
@@ -154,4 +158,40 @@ padding: 36px 139px 60px 138px;
 }
 .skills {
   margin-bottom: 156px;
+}
+
+/* resume section styles */
+
+.resume-container {
+  display: flex;
+  gap: 30px;
+}
+
+.experience-description {
+  font-size: 20px;
+  color: #757575;
+}
+.experience-sub-title {
+  font-size: 24px;
+  font-weight: semibold;
+  color: #757575;
+
+}
+
+.experience-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+.resume-column-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #474747;
+}
+.btn-primary-margin {
+  margin-top: 60px;
+}
+
+.resume hr {
+  margin: 36px 0;
 }
